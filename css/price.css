@@ -1,0 +1,77 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
+
+body{
+    background-color: #f5f2ff;
+    font-family: "Raleway", Helvetica, sans-serif;
+    padding: 2em 2em 2em 2em;
+}
+
+
+#header{
+    padding: 5px 5px 5px 5px;
+    text-shadow: 2px 2px #d0d0d0;
+}
+
+#mainBody{
+    padding: 5px 5px 5px 5px;
+    border: solid #c7c7c7 0.5pt;
+    box-shadow: 3px 3px 2px 2px #595959;
+    margin: 10px 10px 10px 10px;
+}
+
+
+
+#header h1,h3{
+    color: #525252;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#searchSection{
+    background-color: #dfd6e8;
+    color: #525252;
+    border: solid #c7c7c7 0.3pt;
+    padding: 5px 5px 5px 5px;
+}
+
+#searchSection h4{
+    font-weight: bold;
+}
+
+#responseList{
+    border: solid #c7c7c7 0.3pt;
+
+}
+
+#responseList{
+    border: solid #c7c7c7 0.3pt;
+    padding: 10px 10px 10px 10px;
+    margin: 8px 8px 8px 8px;
+}
+
+#ebayResults{
+    border: solid #c7c7c7 0.4pt;
+    padding: 5px 5px 5px 5px;
+    background-color: #fff7ff;
+    box-shadow: 3px 3px 2px 2px #595959;
+    margin-bottom: 10px;
+}
+
+#amazonResults{
+    border: solid #c7c7c7 0.4pt;
+    padding: 5px 5px 5px 5px;
+    background-color: #fff7ff;
+    box-shadow: 3px 3px 2px 2px #595959;
+    margin-bottom: 10px;
+}
+
+#item{
+    border: solid #c7c7c7 0.3pt;
+    padding: 2px 2px 2px 2px;
+    box-shadow: 2px 2px 1px 1px #8b8b8b;
+
+
+}
