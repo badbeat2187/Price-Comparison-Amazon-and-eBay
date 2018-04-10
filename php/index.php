@@ -1,9 +1,9 @@
 <?php
 require_once('amazon_product_api_class.php');
-$public = 'AKIAJTGOY62FTKSI2DDQ'; //amazon public key here
-$private = 'q0kVO3pKMJg1I2haRZkBnLawidlG1dMl3nvQz05v'; //amazon private/secret key here
+$public = //amazon public key here
+$private = //amazon private/secret key here
 $site = 'com'; //amazon region
-$affiliate_id = 'nikhilswami-20'; //amazon affiliate id
+$affiliate_id =  //amazon affiliate id
 
 $searchkey=$_POST['search'];
 $category=$_POST['category'];
@@ -17,7 +17,7 @@ echo $category;
 // API request variables
 $endpoint = 'http://svcs.ebay.com/services/search/FindingService/v1';  // URL to call
 $version = '1.0.0';  // API version supported by your application
-$appid = 'student-products-PRD-038ccaf50-b2ee97ab';  // Replace with your own AppID
+$appid =  // Replace with your own AppID
 $globalid = 'EBAY-US';  // Global ID of the eBay site you want to search (e.g., EBAY-DE)
 $query = $searchkey;  // You may want to supply your own query
 $safequery = urlencode($query);  // Make the query URL-friendly
